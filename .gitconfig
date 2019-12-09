@@ -1,0 +1,6 @@
+[user]
+	name = Brent Nkomo
+	email = brent.nkomo@gmail.com
+	signingkey = 0831F83E6F202BF9
+[commit]
+	gpgsign = true

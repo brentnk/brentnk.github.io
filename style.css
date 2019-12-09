@@ -1,0 +1,63 @@
+* {
+    font-family: Calibri;
+}
+
+p {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.contact-info {
+    margin: 1em;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: .5em;
+}
+
+.contact-info label { text-align: right;}
+
+.company-detail {
+    margin: 1em;
+    float: right;
+}
+
+.company-name {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.description {
+    border-left: solid #000000;
+    padding-left: 1em;
+}
+
+.work-dates {
+    font-size: smaller;
+    font-style: italic;
+    color: gray;
+}
+
+.role-title {
+    font-weight: bold;
+}
+
+.role {
+    padding: .75em;
+}
+
+h1 {
+    color: #02302A;
+}
+
+h1 .title {
+    display: inline;
+}
+
+h2 {
+    color: #02302A;
+}
